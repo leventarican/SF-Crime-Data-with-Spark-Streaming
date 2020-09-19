@@ -4,6 +4,9 @@ from pyspark.sql import SparkSession
 from pyspark.sql.types import *
 import pyspark.sql.functions as psf
 
+#
+# You Need to Edit in Your Project Work
+#
 
 # TODO Create a schema for incoming resources
 schema = StructType([
