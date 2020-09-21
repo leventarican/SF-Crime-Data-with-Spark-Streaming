@@ -1,2 +1,11 @@
 *.zip
+*.tgz
+*.pdf
+*.ipynb
+
+# folders
 __MACOSX
+setup
+*-env
+workspace
+__pycache__
