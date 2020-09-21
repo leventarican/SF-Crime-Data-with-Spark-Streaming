@@ -1,4 +1,5 @@
 # ##############################################################################
+# SF Crime Data with Spark Streaming
 
 * __create__ a Kafka server to produce data, and __ingest__ data through Spark Structured Streaming.
 * These starter code files should be edited:
