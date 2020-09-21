@@ -2,7 +2,7 @@
 *.tgz
 *.pdf
 *.ipynb
-*.json
+**/*.json
 
 # folders
 __MACOSX
