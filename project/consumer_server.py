@@ -15,7 +15,7 @@ class ConsumerServer(KafkaConsumer):
 
 if __name__ == "__main__":
     server = ConsumerServer(
-        'com.github.leventarican.foobar-0',
+        'com.github.leventarican.data',
         bootstrap_servers=['localhost:9092'],
         auto_offset_reset='earliest',
         enable_auto_commit=True,
