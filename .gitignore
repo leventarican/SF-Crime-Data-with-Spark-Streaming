@@ -3,6 +3,9 @@
 *.pdf
 *.ipynb
 *.json
+*.png
+
+code-*.py
 
 # folders
 __MACOSX
