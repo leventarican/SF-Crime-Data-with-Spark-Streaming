@@ -1,9 +1,11 @@
+# OPTIONAL
 # created separately to check if your kafka_server.py is working properly.
-# make a screenshot
+
 # https://kafka-python.readthedocs.io/en/master/apidoc/KafkaConsumer.html#kafka.KafkaConsumer
 
 from kafka import KafkaConsumer
 import json
+import time
 
 class ConsumerServer(KafkaConsumer):
     def __init_(self, **kwargs):
@@ -12,6 +14,7 @@ class ConsumerServer(KafkaConsumer):
     def run(self):
         for msg in self:
             print(msg.value)
+            time.sleep(3)
 
 if __name__ == "__main__":
     server = ConsumerServer(

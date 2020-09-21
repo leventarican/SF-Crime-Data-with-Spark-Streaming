@@ -7,6 +7,7 @@ import producer_server
 def run_kafka_server():
 	# TODO get the json file path
     input_file = "police-department-calls-for-service.json"
+    # input_file = "debug.json"
 
     # TODO fill in blanks
     producer = producer_server.ProducerServer(
