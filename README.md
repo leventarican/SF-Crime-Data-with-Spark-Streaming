@@ -13,11 +13,11 @@ Also `spark.broadcast.checksum` or `spark.storage.memoryMapThreshold` seems to h
 * https://spark.apache.org/docs/latest/configuration.html
 
 # screenshots
-step1-kafka-consumer-console-output
+__step1-kafka-consumer-console-output__
 ![step1-kafka-consumer-console-output](project/step1-kafka-consumer-console-output.png)
 
-step2-progress-reporter
+__step2-progress-reporter__
 ![step2-progress-reporter](project/step2-progress-reporter.png)
 
-step2-spark-ui
-![](project/step2-spark-ui.png)
+__step2-spark-ui__
+![step2-spark-ui](project/step2-spark-ui.png)
