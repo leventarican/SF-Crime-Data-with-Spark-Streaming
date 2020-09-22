@@ -1,3 +1,4 @@
+# questions
 > How did changing values on the SparkSession property parameters affect the throughput and latency of the data?
 
 Better _processed rows per second_ performance.
@@ -10,3 +11,13 @@ Also `spark.broadcast.checksum` or `spark.storage.memoryMapThreshold` seems to h
 
 * https://spark.apache.org/docs/latest/sql-performance-tuning.html
 * https://spark.apache.org/docs/latest/configuration.html
+
+# screenshots
+step1-kafka-consumer-console-output
+![step1-kafka-consumer-console-output](project/step1-kafka-consumer-console-output.png)
+
+step2-progress-reporter
+![step2-progress-reporter](project/step2-progress-reporter.png)
+
+step2-spark-ui
+![](project/step2-spark-ui.png)
