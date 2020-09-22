@@ -3,7 +3,6 @@
 *.pdf
 *.ipynb
 *.json
-*.png
 
 code-*.py
 
